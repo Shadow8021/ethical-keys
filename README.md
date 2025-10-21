@@ -1,4 +1,4 @@
-# Backlog Kanban — ethical-keys
+# Backlog Kanban - ethical-keys
 Projet pédagogique d'apprentissage Python autour de la capture locale et éthique de frappes clavier dans une application console.
 
 ## Objectif général
@@ -11,7 +11,7 @@ Apprendre à structurer un projet Python collaboratif en suivant une approche pa
 
 ---
 
-## ETAPE 1 — Mise en place du projet
+## ETAPE 1 - Mise en place du projet
 Objectif : disposer d’un squelette de projet exécutable par tous les membres.
 
 ### 1.1 – Créer la structure du projet
@@ -66,7 +66,7 @@ Projet éducatif en Python : apprentissage des bases de la collecte locale d’�
 
 ---
 
-## ETAPE 2 — Capture locale en console
+## ETAPE 2 - Capture locale en console
 Objectif : afficher les touches tapées dans la console sans interface graphique.
 
 ### 2.1 – Lecture clavier en console
@@ -108,7 +108,7 @@ Objectif atteint si :
 
 ---
 
-## ETAPE 3 — Enregistrement des frappes
+## ETAPE 3 - Enregistrement des frappes
 Objectif : sauvegarder les touches tapées dans un fichier texte.
 
 ### 3.1 – Créer un module collector
@@ -147,7 +147,7 @@ Objectif atteint si un fichier `keys.log` est créé et contient les touches tap
 
 ---
 
-## ETAPE 4 — Structure du projet et modèles
+## ETAPE 4 - Structure du projet et modèles
 Objectif : organiser le code pour que chacun puisse travailler sur une partie spécifique.
 
 ### 4.1 – Créer les modules de base
@@ -177,7 +177,7 @@ class InputEvent(BaseModel):
 
 ---
 
-## ETAPE 5 — Anonymisation et sécurité
+## ETAPE 5 - Anonymisation et sécurité
 Objectif : masquer les données sensibles avant la sauvegarde.
 
 ### 5.1 – Masquage basique
@@ -221,7 +221,7 @@ Modifier `collector.py` pour chiffrer avant sauvegarde.
 
 ---
 
-## ETAPE 6 — Analyse des données
+## ETAPE 6 - Analyse des données
 Objectif : calculer quelques statistiques à partir du fichier des frappes.
 
 ### 6.1 – Compter le nombre de frappes
@@ -237,7 +237,7 @@ Lire le fichier, extraire les timestamps, et calculer la moyenne des écarts.
 
 ---
 
-## ETAPE 7 — Aspects éthiques et documentation
+## ETAPE 7 - Aspects éthiques et documentation
 Objectif : comprendre et documenter les limites du projet.
 
 ### 7.1 – Créer la charte éthique
@@ -260,7 +260,7 @@ def clear_log():
 
 ---
 
-## ETAPE 8 — Collaboration et bonnes pratiques
+## ETAPE 8 - Collaboration et bonnes pratiques
 Objectif : apprendre à travailler à plusieurs sur GitHub.
 
 ### 8.1 – Branches de développement
@@ -278,7 +278,7 @@ docs: mise à jour du README
 
 ---
 
-## ETAPE 9 — Bonus possibles
+## ETAPE 9 - Bonus possibles
 Objectif : aller plus loin une fois les bases acquises.
 
 Idées :
@@ -289,7 +289,7 @@ Idées :
 
 ---
 
-## ETAPE 10 — Validation finale
+## ETAPE 10 - Validation finale
 Objectif : prouver que le projet fonctionne et que tout le monde comprend chaque partie.
 
 Checklist de fin :
